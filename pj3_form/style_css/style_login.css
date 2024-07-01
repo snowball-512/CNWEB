@@ -1,0 +1,52 @@
+/* Reset các giá trị mặc định */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Căn giữa form */
+.form {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style cho tiêu đề của form */
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style cho input và label */
+table {
+    width: 100%;
+}
+
+td {
+    padding: 5px 0;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+/* Style cho nút đăng nhập */
+input[type="submit"] {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
