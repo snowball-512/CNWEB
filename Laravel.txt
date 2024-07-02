@@ -1,0 +1,23 @@
+xóa cột:php artisan make:migration drop_origin_and_manufacturing_year_from_categories_table --table=categories
+
+thêm cột: php artisan make:migration add_new_column_to_categories_table --table=categories
+
+php artisan make:migration create_classroom_table: tao bang
+php artisan migrate:
+php artisan make:seeder CategoriesTableSeeder
+php artisan db:seed --class=CategoriesTableSeeder
+php artisan make:model Category
+php artisan make:controller CategoryController -r
+chạy : php artisan serve
+php artisan make:view categories.index
+
+
+composer create-project laravel/laravel --prefer-dist myblog: tạo project ở cmd
+
+
+
+
+
+
+Chạy lệnh sau để xuất các view pagination mặc định:
+php artisan vendor:publish --tag=laravel-pagination
