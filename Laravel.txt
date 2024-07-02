@@ -14,10 +14,11 @@ php artisan make:view categories.index
 
 composer create-project laravel/laravel --prefer-dist myblog: tạo project ở cmd
 
-
+GKI 2: PHP MVC
 
 
 
 
 Chạy lệnh sau để xuất các view pagination mặc định:
 php artisan vendor:publish --tag=laravel-pagination
+
